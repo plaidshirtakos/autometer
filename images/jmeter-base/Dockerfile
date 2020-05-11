@@ -2,7 +2,7 @@ FROM openjdk:8-jdk-alpine
 
 MAINTAINER autometer.npm@gmail.com
 
-ENV JMETER_VERSION 3.1
+ENV JMETER_VERSION 5.2.1
 ENV JMETER_PLUGINS_VERSION=1.4.0
 ENV JMETER_HOME=/usr/local/apache-jmeter-${JMETER_VERSION}
 ENV PATH=${JMETER_HOME}/bin:${PATH}
